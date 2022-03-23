@@ -39,7 +39,7 @@ public class arrays {
 
     // sorting an array
 
-    public static ArrayList<Integer> BubbleSort(ArrayList<Integer> array){
+    public static ArrayList<Integer> BubbleSort(ArrayList<Integer> array){ // using collections
         // it requires two loops :(
         for (int i = 0; i < array.size() - 2; i++) {
             for (int j = i+1; j < array.size() - 1; j++) {
